@@ -39,13 +39,13 @@
 #include <iostream>
 using namespace std;
 
-
 string status (int sensor1, int sensor2) {
     cout << "Masukkan indeks : ";
     cin >> sensor1;
     cout << "Masukkan kualitas udara : ";
     cin >> sensor2;
 };
+
 
 string status = (int sensor1 + int sensor2);
 
